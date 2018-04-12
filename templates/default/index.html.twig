@@ -1,0 +1,16 @@
+{% extends 'base.html.twig' %}
+
+{% block body_id 'home' %}
+
+{% block main %}
+    <article class="post">
+        <h2>
+        Hello 
+        {% if is_granted('ROLE_ADMIN') %}
+            Admin
+        {% else %}
+            User
+        {% endif %}
+        </h2>
+    </article>
+{% endblock %}
