@@ -1,0 +1,21 @@
+/build/
+/node_modules/
+/var/*
+!/var/cache
+/var/cache/*
+!var/cache/.gitkeep
+!/var/data
+!/var/log
+/var/log/*
+!var/log/.gitkeep
+!/var/sessions
+/var/sessions/*
+!var/sessions/.gitkeep
+!var/SymfonyRequirements.php
+/public/build/fonts/glyphicons-*
+/public/build/images/glyphicons-*
+
+###> symfony/framework-bundle ###
+/public/bundles/
+/var/
+/vendor/

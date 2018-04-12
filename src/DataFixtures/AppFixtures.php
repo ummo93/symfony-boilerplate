@@ -11,11 +11,7 @@
 
 namespace App\DataFixtures;
 
-use App\Entity\Comment;
-use App\Entity\Post;
-use App\Entity\Tag;
 use App\Entity\User;
-use App\Utils\Slugger;
 use Doctrine\Bundle\FixturesBundle\Fixture;
 use Doctrine\Common\Persistence\ObjectManager;
 use Symfony\Component\Security\Core\Encoder\UserPasswordEncoderInterface;
